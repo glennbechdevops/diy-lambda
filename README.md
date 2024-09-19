@@ -18,11 +18,14 @@ Formålet med denne oppgaven er at du skal bli kjent med AWS Lambda-funksjonalit
 - For å gjøre Lambda-funksjonen tilgjengelig via et HTTP-endepunkt, opprett en **API Gateway**-trigger. (Hvis du brukte et Blueprint, fikk du kanskje API Gateway allerede er inkludert)
 - Hvis du opprettet funksjonen fra scratch, velg API Gateway som trigger manuelt og konfigurer den til å eksponere Lambda-funksjonen som et HTTP-endepunkt.
 
-Test funksjonen ved å bruke HTTP-endepunktet for å verifisere at den fungerer som forventet.
+Test funksjonen ved å bruke HTTP-endepunktet for å verifisere at den fungerer som forventet. 
+
+* Kan du implementere noe nyttig utover bare hello world?
+* Kan du prosessere en inkommende request?
+* Kan du lage en kalkulator?
+* Kan du kalkulere PI til n desimaler? 
+* Post link på Canvas Chat for PGR301!
 
 Når du er ferdig og har testet funksjonen, **slett Lambda-funksjonen** og API Gateway-oppsettet for å unngå unødvendige kostnader og ressursmangel
         
-
-
-
 Lykke til!
