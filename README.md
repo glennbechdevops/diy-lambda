@@ -1,11 +1,11 @@
-# diy-lambda
+# DIY LAB! LAmbda
 
 ## Formål ##   
 Formålet med denne oppgaven er at du skal bli kjent med AWS Lambda-funksjonalitet og hvordan du kan lage et HTTP-endepunkt ved å bruke API Gateway som trigger for Lambda-funksjonen. Du skal selvstendig navigere gjennom prosessen med å opprette funksjonen og sette opp en trigger for å skape et fungerende API-endepunkt.
 
 ## Oppgave ##
 
-* Logg inn på ditt **Cloud9-miljø**, og naviger videre til **AWS Management Console**.
+* Logg in i AWS med din bruker
 * Gå til tjenesten **AWS Lambda** via søkefeltet i AWS Console. 
 * Velg **Create Function** for å opprette en ny Lambda-funksjon.
 
@@ -20,6 +20,7 @@ Formålet med denne oppgaven er at du skal bli kjent med AWS Lambda-funksjonalit
 
 Test funksjonen ved å bruke HTTP-endepunktet for å verifisere at den fungerer som forventet. 
 
+* Kan du bruke Postman eller Curl for å kalle lamda-funksjonen din?
 * Kan du implementere noe nyttig utover bare hello world?
 * Kan du prosessere en inkommende request?
 * Kan du lage en kalkulator?
