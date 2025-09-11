@@ -10,15 +10,17 @@ AWS Lambda er en serverløs tjeneste hvor du kjører kode som funksjoner uten å
 ## Oppgave ##
 
 * Logg in i AWS med din bruker
-* Gå til tjenesten **AWS Lambda** via søkefeltet i AWS Console. 
-* Velg **Create Function** for å opprette en ny Lambda-funksjon.
+* Gå til tjenesten **AWS Lambda** via søkefeltet i AWS Console og lag en ny funksjon
 
 * Du kan velge mellom to alternativer, du står fritt til å velge
 
     - **Author from scratch:** Opprett Lambda-funksjonen helt fra bunnen av.
     - **Velg et Blueprint:** Bruk en eksisterende mal som et utgangspunkt for din funksjon.
 
-## Opprett en API Gateway Trigger ##
+Det er lettest å teste med språk som ikke kompileres- som Javascript og Python.
+
+## For eksempel: Opprett en API Gateway Trigger ##
+
 - For å gjøre Lambda-funksjonen tilgjengelig via et HTTP-endepunkt, opprett en **API Gateway**-trigger. (Hvis du brukte et Blueprint, fikk du kanskje API Gateway allerede er inkludert)
 - Hvis du opprettet funksjonen fra scratch, velg API Gateway som trigger manuelt og konfigurer den til å eksponere Lambda-funksjonen som et HTTP-endepunkt.
 
