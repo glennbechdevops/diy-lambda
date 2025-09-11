@@ -1,4 +1,4 @@
-# DIY LAB! LAmbda
+# DIY LAB! Lambda
 
 ## Formål ##   
 Formålet med denne oppgaven er at du skal bli kjent med AWS Lambda-funksjonalitet og hvordan du kan lage et HTTP-endepunkt ved å bruke API Gateway som trigger for Lambda-funksjonen. Du skal selvstendig navigere gjennom prosessen med å opprette funksjonen og sette opp en trigger for å skape et fungerende API-endepunkt.
